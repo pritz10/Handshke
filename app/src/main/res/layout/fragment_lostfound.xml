@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.handshake.pritz.handshke.lostfound"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/lost"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        app:srcCompat="@mipmap/add_btn"
+        android:layout_weight="0.12" />
+
+    <EditText
+        android:id="@+id/ltitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="What's the Matter!" />
+
+    <EditText
+        android:id="@+id/ldetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="Detaind  itemls of Lost/Fou"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:text="fuck" />
+
+
+</LinearLayout>
